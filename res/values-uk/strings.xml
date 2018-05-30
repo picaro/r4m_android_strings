@@ -93,6 +93,8 @@
     <string name="login_eror">Логін не може бути порожнім</string>
     <string name="password_dont_match">Паролі не збігаються</string>
     <string name="Wrong_login_or_password">Неправильний логін або пароль</string>
+    <string name="email_exists">E-mail вже існує</string>
+    <string name="login_exists">Login вже існує</string>
 
 
     <!--TAB-->

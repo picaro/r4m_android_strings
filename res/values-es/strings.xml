@@ -93,8 +93,6 @@
     <string name="login_eror">El inicio de sesión no puede estar vacío</string>
     <string name="password_dont_match">Las contraseñas no coinciden</string>
     <string name="Wrong_login_or_password">Usuario o contraseña incorrectos</string>
-
-
     <!--TAB-->
     <string name="accountInfo">Mi perfil</string>
     <string name="yourPost">Mis cosas</string>

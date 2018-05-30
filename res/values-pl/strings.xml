@@ -94,6 +94,8 @@
     <string name="login_eror">Login nie może być pusty</string>
     <string name="password_dont_match">Hasła nie pasują</string>
     <string name="Wrong_login_or_password">Zły login lub hasło</string>
+    <string name="email_exists">Email już istnieje</string>
+    <string name="login_exists">Logowanie już istnieje</string>
 
 
     <!--TAB-->
