@@ -1,0 +1,15 @@
+[main]
+host = https://www.transifex.com
+
+[rm-transtalte.stringsxml]
+file_filter = res/values-<lang>/strings.xml
+source_file = res/values/strings.xml
+source_lang = en
+type = ANDROID
+
+[rm-transtalte.market_screen_textsyml]
+file_filter = play_market/screens/<lang>/market_screen_texts.yml
+source_file = play_market/screens/en/market_screen_texts.yml
+source_lang = en
+type = YAML
+

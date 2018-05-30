@@ -1,0 +1,20 @@
+---
+en:
+  market:
+    screen1: "Share your things and make $"
+    screen2: "Just find all things around you"
+    screen3: "Rent things, stop buying"
+    title: "Rent4Me - Rent Anything you want!"
+    shortdesc: "This service allows you to rent/lend anything you want from your neighbors."
+    fulldesc: "Rent anything you want!  Share unused stuff! \n\n
+      Do you want to earn extra money just by sharing things which you don’t use anymore? \n
+      How about building your own business with this simple Application? \n\n
+      You and rent any thing you want from your neighbors or from rental companies.\n
+      More than 20000 things already listed.\n\n
+      Unstable yet!\n\n
+      Some known bugs:\n
+      58) Closing of the menu is not obvious\n
+      56) Categories are not closing in time of search\n
+      66) Right panel is not closing when logging in - logging out from the application.\n
+      50) You shouldn't be able to choose current date.\n
+      47) You can't delete uploaded document"

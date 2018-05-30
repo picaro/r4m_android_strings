@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">Rent4me</string>
+    <string name="facebook_app_id">976836812414977</string>
+
+    <string name="address_hidden">(Адрес не является общедоступным)</string>
+
+    <!-- Suggestion Activity -->
+    <string name="search_bar_menu_search">Поиск</string>
+    <string name="search_hint">Я хочу… </string>
+    <string name="search_suggestion_title">Попробуйте это</string>
+    <string name="search_suggestion_no_result_title">Извините, результатов не найдено.</string>
+
+    <!-- Search Result Fragment -->
+    <string name="search_result_list_view">Список</string>
+    <string name="search_result_map_view">Карта</string>
+    <string name="search_result_swipe_view">Карточки</string>
+    <string name="search_result_save_search">Сохранить поиск</string>
+    <string name="search_result_sort">Сортировать</string>
+    <string name="km">км</string>
+    <string name="search_result_updating_map">Обновление карты</string>
+    <string name="search_error">Произошла ошибка при выполнении поиска.</string>
+
+    <string name="search_result_no_result_title">К сожалению, мы не можем найти вещи, соответствующие вашему поиску.</string>
+    <string name="search_result_no_result_message">Попробуйте изменить название вещи или изменить местоположение</string>
+
+    <string name="search_card_empty_title">Мы не можем найти какие-либо вещи</string>
+    <string name="search_card_empty_message">Попробуйте изменить  фильтр или изменить запрос, чтобы расширить поиск или настроить область поиска местоположения</string>
+
+    <item name="search_result_default_map_lat" format="float" type="integer">36.2122285</item>
+    <item name="search_result_default_map_lng" format="float" type="integer">51.711878</item>
+
+    <string name="search_card_pass">ПРОПУСК</string>
+    <string name="search_card_favorite">Избранное</string>
+    <string name="search_card_no_thumbnails">Нет фотографий</string>
+    <string name="search_category">категория: </string>
+
+
+    <string name="search_permission_gps_rationale">Предоставьте доступ к GPS для удобного поиска.</string>
+    <string name="search_bar_no_location_error">Извините, нам не удалось найти ваше местоположение, повторите попытку позже.</string>
+
+    <string name="search_result_zoom_exceeded_title">Слишком далеко</string>
+    <string name="search_result_zoom_exceeded_message">Вы слишком далеко отдалили. Пожалуйста, приблизитесь ближе, чтобы увидеть дома.</string>
+    <string name="ok">ok</string>
+    <string name="cancel">Отмена</string>
+    <string name="search_result_pruduct_loading">Поиск…</string>
+    <string name="search_result_product_sorting">Сортировка…</string>
+    <string name="search_suggestion_retrieving_location">_suggestion_retrieving_location</string>
+
+
+    <string name="search_most_recent_search">Последние запросы</string>
+    <string name="most_recent_searches">{0}%1$s{/0} {0}%2$s{/0} ~ {0}%3$s{/0} ℃</string>
+    <string name="no_product_error_message">Нет вещи!</string>
+    <string name="product_details_error_displaying_picture">Ошибка загрузки изображения. Пожалуйста, повторите попытку позже.</string>
+
+    <!--   __________Filter ___________________-->
+    <string name="filter_title">Фильтры</string>
+    <string name="search_result_filter_clear_all">Очистить все</string>
+    <string name="filter_category_all">Все</string>
+    <string name="search_result_filter_category">Категория</string>
+    <string name="search_radius">Радиус поиска:</string>
+
+    <string name="filter_exit_title">Закрыть  выбор фильтра</string>
+    <string name="rental_date_of">Дата аренды от</string>
+    <string name="any">Любая</string>
+    <string name="rental_date_to">Дата окончания аренды </string>
+    <string name="the_thing_is">Состояние вещи </string>
+    <string name="save">Сохранить</string>
+
+    <string name="wellcome_offer_back">НАЗАД</string>
+    <string name="wellcome_offer_next">ДАЛЬШЕ</string>
+    <string name="wellcome_offer_done">ГОТОВО</string>
+    <string name="wellcome_skip">Пропустить</string>
+
+    <!--Register   and Login -->
+    <string name="register_email">Email</string>
+    <string name="register_password">Пароль</string>
+    <string name="login_forgot_password">Забыли пароль?</string>
+
+    <string name="register_succes">Регистрация сохранена! Пожалуйста, проверьте свой адрес электронной почты для подтверждения.</string>
+
+    <string name="orLoginWith">или войдите через</string>
+    <string name="login_eror_api">Не удалось войти в систему</string>
+    <string name="login">Логин</string>
+    <string name="intro_sign_in">Вход</string>
+    <string name="intro_register">Регистрация</string>
+    <string name="logout">Выйти</string>
+    <string name="emailIsNotValid">E-mail неправильно введен</string>
+    <string name="emailCannotBeNull">E-mail не может быть пустой</string>
+    <string name="errorLogin">Ошибка  авторизации!</string>
+    <string name="enter_a_password">Введите ваш пароль</string>
+    <string name="password_a_short">Пароль слишком короткий</string>
+    <string name="password_to_long">Пароль слишком длинный</string>
+    <string name="login_eror">Логин не может быть пустым</string>
+    <string name="password_dont_match">Пароли не совпадают</string>
+    <string name="Wrong_login_or_password">не верный логин или пароль</string>
+
+
+    <!--TAB-->
+    <string name="accountInfo">Профиль</string>
+    <string name="yourPost">Мои  вещи</string>
+    <string name="addProduct">Добавить вещь</string>
+    <string name="wishlist">Избранное</string>
+    <string name="wallet">Кошелек</string>
+    <string name="pdp_status">СТАТУС</string>
+    <string name="notification">Уведомления</string>
+
+    <!-- ProductDetail -->
+    <string name="d">д</string>
+    <string name="h">ч</string>
+    <string name="w">н</string>
+    <string name="m">м</string>
+
+    <string name="hour">час</string>
+    <string name="day">день</string>
+    <string name="week">неделя</string>
+    <string name="month">месяц</string>
+    <string name="rate"> Рейтинг </string>
+    <string name="info">Информация</string>
+    <string name="review">Отзывы</string>
+    <string name="product_info">Информация о вещи</string>
+    <string name="product_details_read_less">Скрыть</string>
+    <string name="fav_message">Вещь добавлена  в избранное!</string>
+    <string name="product_details_read_more">Подробнее</string>
+    <string name="product_details_get_directions">Маршрут проезда</string>
+    <string name="product_details_gallery_my_photo_title">Фотографии</string>
+    <string name="product_details_error_displaying_pictures">Ошибка загрузки некоторых изображений. Пожалуйста, повторите попытку позже.</string>
+    <string name="product_details_gallery_page">%1$s из %2$s</string>
+    <string name="share_via">Отправить по</string>
+    <string name="booking">Бронировать</string>
+    <string name="status">Статус</string>
+    <string name="deposit_currency">Депозит(</string>
+    <string name="count">Количество:</string>
+    <string name="days">дней</string>
+    <string name="maximum_rental_period">Максимальный срок аренды</string>
+    <string name="minimum_rental_period">Минимальный срок аренды</string>
+
+    <!--Booking-->
+    <string name="select_the_date_and_time">Выберите дату аренды</string>
+    <string name="already_has_reservations">Эта вещь уже зарезервирована на такие даты</string>
+    <string name="hide_calendar">Скрыть календарь</string>
+    <string name="show_thing_info">Показать информацию о вещи</string>
+    <string name="hide_thing_info">Скрыть информацию об вещи</string>
+    <string name="deposit_for_thing">Депозит за вещь</string>
+    <string name="minimal_rental_time">Минимальное время аренды</string>
+    <string name="maximum_rental_time">Максимальное время аренды</string>
+    <string name="eror_interval_min_rent">Время  аренды меньше за минимальное время аренды</string>
+
+    <!-- reset password activity -->
+    <string name="account_reset_password">Сброс пароля</string>
+    <string name="account_reset_password_descr">Введите адрес электронной почты, связанный с вашей учетной записью, и мы вышлем вам ссылку, чтобы вы могли сбросить свой пароль.</string>
+    <string name="account_reset_password_button">Отправить ссылку</string>
+    <string name="account_reset_password_dialog">Сброс пароля…</string>
+    <string name="account_reset_password_snackbar_success">Сообщение для сброса  пароля  отправлено на вашу почту</string>
+    <string name="account_reset_set_password_button">Введите новый пароль</string>
+
+    <!--My Product-->
+    <string name="dialog_delete_stuff">Вы действительно хотите удалить эту  вещь?</string>
+    <string name="my_poduct">Мои  вещи</string>
+    <string name="yes">Да</string>
+    <string name="no">нет</string>
+
+    <string name="wishlist_emty">Вы еще  не добавляли  вещи в избранное</string>
+    <string name="wishlist_emty_message">вы можете выбрать вещи, которые вам  понравились в нашем поиске</string>
+    <string name="my_product_emty">У вас нет вещей</string>
+    <string name="my_product_emty_message">нажмите на плюс, чтобы добавить их</string>
+
+
+    <!-- Account -->
+    <string name="about_me">Обо мне</string>
+    <string name="additional_contacts">Дополнительные контакты:</string>
+    <string name="phone">Тел:</string>
+    <string name="your_emil">Ваш e-mail:</string>
+    <string name="your_surname">Ваша фамилия:</string>
+    <string name="your_name">Ваше имя:</string>
+    <string name="about_your">О вас:</string>
+    <string name="seeMoreInfo">Дополнительная информация:</string>
+    <string name="security">Безопасность</string>
+    <string name="show_contacts_on_thing_s_page">Показывать контакты на странице</string>
+    <string name="show_full_address_in_search">Показывать  мой  адрес</string>
+    <string name="verification">Подтверждение</string>
+    <string name="verification_of_documents">Проверка документов</string>
+    <string name="change">Изменить</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="change_password_api_eror">Не удалось изменить пароль</string>
+    <string name="change_password_header">Введите новый пароль и старый пароль</string>
+    <string name="change_password_new">Новый пароль</string>
+    <string name="password_error">Должно быть не менее 6 символов. \n Используйте комбинацию букв и цифр.</string>
+    <string name="change_password_confirm">Подтвердите новый пароль</string>
+    <string name="change_password_not_match_error">Пароли не совпадают</string>
+    <string name="updating_password_message">Обновление пароля…</string>
+    <string name="password_updated_message">Пароль успешно обновлен</string>
+    <string name="general_api_error">Произошла ошибка. Проверьте информацию и повторите попытку.</string>
+    <string name="change_profile">Изменить профиль</string>
+
+    <!-- Document -->
+    <string name="add_document">Добавить документ</string>
+    <string name="driver_license">ВОДИТЕЛЬСКИЕ ПРАВА</string>
+    <string name="passport">ПАСПОРТ</string>
+    <string name="student_ticket">СТУДЕНЧЕСКИЙ</string>
+    <string name="international_passport">ЗАГРАНПАСПОРТ</string>
+    <string name="faq_document_verification">Добавьте фотографию одного из документов, это повысит доверие других пользователей. Фото будет видно только модератору</string>
+
+    <!-- Settings -->
+    <string name="action_settings">Настройки</string>
+    <string name="language">язык</string>
+    <string name="currency">Валюта</string>
+    <string name="notify_new_message">Уведомление о новых сообщениях</string>
+    <string name="notify_booking">Уведомление о бронировании</string>
+    <string name="notify_other">Другие уведомления</string>
+
+
+    <!-- Verification -->
+    <string name="register_email_error">Неправильный e-mail</string>
+    <string name="reset_password_api_error">Не удалось сбросить пароль. Проверьте свой адрес электронной почты</string>
+    <string name="account_send_sms_button">Отправить SMS</string>
+    <string name="verification_phone">Проверка телефона</string>
+    <string name="account_send_sms_code">Введите мобильный телефон, связанный с вашей учетной записью, и мы отправим вам SMS с кодом для подтверждения номера</string>
+    <string name="account_code">Чтобы успешно завершить проверку, введите код c SMS</string>
+    <string name="send_sms_api_error">Не удалось отправить sms с кодом. Проверьте свой номер телефона</string>
+    <string name="phone_error">Неправильный  номер телефона</string>
+    <string name="sms_send_succes">Отправить SMS</string>
+    <string name="sending_sms">Производится отправка SMS…</string>
+    <string name="sending_code">Отправить код</string>
+    <string name="code_send_succes">Номер успешно подтвержден!</string>
+    <string name="code_eror_api">Не удалось подтвердить подтвердить, проверьте код</string>
+    <string name="account_send_code">Отправить код</string>
+    <string name="code">Код</string>
+
+    <!-- ProductCondition-->
+    <string name="condition">Состояние</string>
+    <string name="news">новая</string>
+    <string name="used_like_new">как новая</string>
+    <string name="used_good">хорошее</string>
+    <string name="used_acceptable">приемлемое</string>
+    <string name="used_with_defects">с дефектами</string>
+    <string name="manufacture_refurbished">восстановленная изготовителем</string>
+    <string name="other_refurbished">восстановленная</string>
+
+
+    <!-- AddProduct EditProduct -->
+
+    <string name="save_draft">Сохранить в черновик</string>
+    <string name="save_publish">Сохранить и опубликовать</string>
+    <string name="search_result_previous">Назад</string>
+    <string name="search_result_next">Вперед</string>
+    <string name="add_product_name">Название вещи</string>
+    <string name="price_per_hour">Цена в час:</string>
+    <string name="price_per_day">Цена аренды в сутки</string>
+    <string name="price_per_week">Цена за неделю:</string>
+    <string name="price_per_month">Цена в месяц:</string>
+
+    <string name="per_hour">\u0020за час:</string>
+    <string name="per_day"> \u0020за день:</string>
+    <string name="per_week">\u0020за неделю:</string>
+    <string name="per_month"> \u0020за месяц:</string>
+    <string name="some_detail">Описание</string>
+    <string name="max_period_day">Макс. Период (дней)</string>
+    <string name="min_period_hour">Минимальный период (часов)</string>
+    <string name="deposit">Депозит</string>
+    <string name="market_price">Рыночная цена</string>
+    <string name="eror_product_rate">Вещь должна иметь как минимум одну стоимость  аренды</string>
+    <string name="eror_long_desc">Описание вещи, должно быть не менее 20 символов.</string>
+    <string name="eror_market_price">Добавьте примерную рыночную стоимость вещи</string>
+    <string name="Eror_select_address">Не выбран адрес вещь</string>
+    <string name="eror_image_product">У вещи должна быть хотя бы одна фотография!</string>
+    <string name="saved">Сохранено!</string>
+
+
+    <!-- RESERVATON -->
+
+    <string name="emty_reservation">Вы еще не арендуете ни одной вещи</string>
+    <string name="emty_request">У вас пока никто не арендует вещи</string>
+    <string name="tab_iamrent">Я арендую</string>
+    <string name="tab_request">Запросы</string>
+    <string name="new_">новый</string>
+    <string name="confirmed">принят</string>
+    <string name="rejected">отклонён</string>
+    <string name="canceled">отмена</string>
+    <string name="commented">отзыв</string>
+    <string name="conflict">Конфликт</string>
+    <string name="give_feedback"> Оставить отзыв</string>
+    <string name="rating_count_vote">(0)</string>
+    <string name="pledge">Депозит</string>
+    <string name="amount">Сумма</string>
+    <string name="accept">Принять</string>
+    <string name="discard">Отмена</string>
+    <string name="taken">Взять</string>
+    <string name="returned">Отдать</string>
+    <string name="sender">Отправитель</string>
+    <string name="from">С</string>
+    <string name="to">До</string>
+    <string name="select_date_and_time">Выберите дату и время</string>
+
+    <!-- FEEDBACK -->
+    <string name="product_quality">Качество вещи</string>
+    <string name="description_quality">Описание веши</string>
+    <string name="price_quality_ratio">Соотношение цены и качества</string>
+    <string name="location_or_delivery_quality">Местонахождение или качество доставки</string>
+    <string name="what_was_good">Что было хорошего?</string>
+    <string name="what_was_bad">Что было плохо?</string>
+    <string name="owner_of_product">Владелец вещи</string>
+    <string name="what_was_good_in_the_product_owner">Что было хорошего в владельце вещи?</string>
+    <string name="feedback_failure">Ошибка, не удалось сохранить отзыв</string>
+    <string name="feedback_succes">Отзыв успешно отправить!</string>
+
+    <!-- CHAT -->
+    <string name="write_to_message">Напишите сообщение</string>
+
+    <!-- Eror  and Progress   -->
+    <string name="eror_loading">Не удалось загрузить данные!</string>
+
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="delete">Удалить</string>
+    <string name="download_in_progress">Выполняется загрузка</string>
+    <string name="upload_in_progress">Загружаем…</string>
+    <string name="success">Готово!</string>
+    <string name="failure">Ошибка!</string>
+    <string name="title_is_required">Введите название вещи</string>
+    <string name="stuff">Вещи</string>
+    <string name="UAH">грн.</string>
+    <string name="currency_change_succes">Валюта изменилась!</string>
+    <string name="splash_text">Пусть ваши вещи работают на вас</string>
+    <string name="condition_new">Новый</string>
+    <string name="condition_used_like_new">Б/У как новый</string>
+    <string name="condition_used_good">Б/У в хороеем состоянии</string>
+    <string name="condition_used_acceptable">Б/У нормальное</string>
+    <string name="condition_used_with_defects">Б/У с дефектами</string>
+    <string name="condition_refurbished_manufactor">Восстановлен производителем</string>
+    <string name="condition_refurbished">Восстановлен</string>
+    <string name="category_electronics">Электроника</string>
+    <string name="last_visited">Последнее посещение:</string>
+
+
+    <!--  notifications_______________-->
+    <string name="succes_booking_text">Вы можете написать сообщение или позвонить владельцу напрямую</string>
+    <string name="success_booking">Готово!</string>
+    <string name="amount_rent">Арендная плата:</string>
+    <string name="eror_select_date">Конечная дата позже даты начала</string>
+    <string name="reservation">Бронирование</string>
+    <string name="thing_count_reserve">Посмотрите, какие даты cвободны</string>
+    <string name="thing_not_reserve">Посмотреть свободные даты</string>
+    <string name="times">\u0020 раз </string>
+    <string name="you_do_not_have_any_dialogs_yet">У вас еще нет \n каких-либо диалогов</string>
+    <string name="this_user_does_not_have_any_reviews_yet">У этого пользователя пока нет отзывов.</string>
+    <string name="search_suggestion_info_message">Попробуйте другие названия городов или улиц</string>
+    <string name="register_confirm_password">Подтвердите пароль</string>
+
+    <!--  notifications-->
+    <string name="not_leave_feedback">Оставьте пожалуйста отзыв</string>
+    <string name="not_new_booking">Новый запрос аренды</string>
+    <string name="not_accepted">Ваш запрос был подтвержден</string>
+    <string name="not_expired_in">Срок аренды истекает через 1 день</string>
+    <string name="not_book_expired">Аренда просрочена!</string>
+    <string name="not_was_canceled">Заказ был отменён</string>
+    <string name="not_client_marked">Клиент пометил вешь возвращенной</string>
+    <string name="not_renter_return">Арендатель пометил вешь возвращенной</string>
+    <string name="not_marked">Клиент пометил начало аренды</string>
+    <string name="not_client_market_start">Арендатель пометил начало аренды</string>
+    <string name="server_eror">Ошибка сервера, попробуйте позже</string>
+    <string name="im_looking">Я ищу…</string>
+    <string name="select_location">Выберите адрес</string>
+    <string name="category">Категория</string>
+    <string name="search_by_category">Искать по категории</string>
+    <string name="search_nearby">Искать рядом</string>
+    <string name="search_by_title">Искать по названию</string>
+    <string name="rating">Рейтинг</string>
+
+
+    <!--  notifications_______________-->
+    <string name="search_result_product_address">%1$s\n%2$s</string>
+    <string name="settings_link">Ссылка на настройки</string>
+    <string name="map">Карта</string>
+
+    <string name="no_connection">Нет соединения с интернетом.</string>
+
+
+</resources>

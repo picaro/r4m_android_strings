@@ -1,0 +1,9 @@
+---
+es:
+  market:
+    screen1: "Comparta sus cosas y gane dinero"
+    screen2: "Descubra cosas cerca de usted"
+    screen3: "Alquile cosas, deje de comprar"
+    title: "Rent4Me - ¡Alquila todo lo que quieras!"
+    shortdesc: "Este servicio le permite alquilar/prestar lo que quiera a sus vecinos."
+    fulldesc: "¡Alquile todo lo que quiera!  ¡Comparta lo que no utilice! \n\n ¿Quiere ganar dinero extra compartiendo cosas que ya no usa? \n ¿Qué le parecería crear su propio negocio con esta sencilla Aplicación? \n\n Alquile cualquier cosa que desee de sus vecinos o de compañías de alquiler.\n Más de 20 000 cosas ya catalogadas.\n\n ¡Aún es inestable!\n\n Algunos fallos conocidos:\n 58) El cierre del menú no está claro\n 56) Las categorías no se cierran en el momento de la búsqueda\n 66) El panel derecho no se cierra al iniciar/cerrar sesión en la aplicación.\n 50) No debería poder elegir la fecha actual.\n 47) No se puede eliminar un documento cargado"

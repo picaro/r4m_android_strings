@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">Rent4me</string>
+    <string name="facebook_app_id">976836812414977</string>
+
+    <string name="address_hidden">(Die Adresse wird nicht öffentlich angezeigt)</string>
+
+    <!-- Suggestion Activity -->
+    <string name="search_bar_menu_search">Suche</string>
+    <string name="search_hint"> Ich brauche... </string>
+    <string name="search_suggestion_title">Versuchen Sie dies...</string>
+    <string name="search_suggestion_no_result_title">Es tut uns leid, keine Ergebnisse</string>
+
+    <!-- Search Result Fragment -->
+    <string name="search_result_list_view">Liste</string>
+    <string name="search_result_map_view">Karte</string>
+    <string name="search_result_swipe_view">Karten</string>
+    <string name="search_result_save_search">SUCHE SPEICHERN</string>
+    <string name="search_result_sort">SORT</string>
+    <string name="km"> km</string>
+    <string name="search_result_updating_map">Karte wird aktualisiert</string>
+    <string name="search_error">Bei der Suche ist ein Fehler aufgetreten.</string>
+
+    <string name="search_result_no_result_title">Es tut uns leid, wir konnten nichts Passendes für Ihre Suche finden.</string>
+    <string name="search_result_no_result_message">Versuchen Sie den Namen des Gegenstands oder den Ort zu wechseln</string>
+
+    <string name="search_card_empty_title">Wir können keine Gegenstände finden</string>
+    <string name="search_card_empty_message">Versuchen Sie die Filter zurückzusetzen oder ändern Sie Ihr Suchgebiet</string>
+
+    <item name="search_result_default_map_lat" format="float" type="integer">36.2122285</item>
+    <item name="search_result_default_map_lng" format="float" type="integer">51.711878</item>
+
+    <string name="search_card_pass">ÜBERSPR</string>
+    <string name="search_card_favorite">FAVORIT</string>
+    <string name="search_card_no_thumbnails">keine Fotos verfügbar</string>
+    <string name="search_category">Kategorie: </string>
+
+
+    <string name="search_permission_gps_rationale">Gewähren Sie GPS-Zugang für eine einfache Suche.</string>
+    <string name="search_bar_no_location_error">Es tut uns leid, wir konnten Ihren Standort nicht bestimmen, versuchen Sie es später erneut.</string>
+
+    <string name="search_result_zoom_exceeded_title">Zu weit herausgezoomt</string>
+    <string name="search_result_zoom_exceeded_message">Sie haben zu weit herausgezoomt Bitte zoomen Sie etwas näher heran, um Häuser zu sehen.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="search_result_pruduct_loading">Suchen...</string>
+    <string name="search_result_product_sorting">Wird sortiert...</string>
+    <string name="search_suggestion_retrieving_location">_suggestion_retrieving_location</string>
+
+
+    <string name="search_most_recent_search">Letzte Suchanfragen</string>
+    <string name="most_recent_searches">{0}%1$s{/0} {0}%2$s{/0} ~ {0}%3$s{/0} ℃</string>
+    <string name="no_product_error_message">Keine Gegenstände!</string>
+    <string name="product_details_error_displaying_picture">Fehler beim Herunterladen des Bilds. Bitte versuchen Sie es später erneut.</string>
+
+    <!--   __________Filter ___________________-->
+    <string name="filter_title">Filter</string>
+    <string name="search_result_filter_clear_all">ALLES ZURÜCKSETZEN</string>
+    <string name="filter_category_all">Alle</string>
+    <string name="search_result_filter_category">Kategorie</string>
+    <string name="search_radius">Entfernung</string>
+
+    <string name="filter_exit_title">Filter schließen</string>
+    <string name="rental_date_of">Datum von</string>
+    <string name="any">Jegliche</string>
+    <string name="rental_date_to">Datum bis</string>
+    <string name="the_thing_is">Bedingung</string>
+    <string name="save">speichern</string>
+
+    <string name="wellcome_offer_back">ZURÜCK</string>
+    <string name="wellcome_offer_next">NÄCHSTE</string>
+    <string name="wellcome_offer_done">GEMACHT</string>
+    <string name="wellcome_skip">Überspringen</string>
+
+    <!--Register   and Login -->
+    <string name="register_email">E-Mail</string>
+    <string name="register_password">Passwort</string>
+    <string name="login_forgot_password">Passwort vergessen?</string>
+
+    <string name="register_succes">Registrierung gespeichert! Bitte überprüfen Sie Ihre E-Mail zur Bestätigung</string>
+
+    <string name="orLoginWith">oder anmelden mit</string>
+    <string name="login_eror_api">Fehler beim Einloggen</string>
+    <string name="login">Login</string>
+    <string name="intro_sign_in">ANMELDEN</string>
+    <string name="intro_register">ANMELDEN</string>
+    <string name="logout">Logout</string>
+    <string name="emailIsNotValid">E-Mail ungültig!</string>
+    <string name="emailCannotBeNull">E-Mail kann nicht leer sein</string>
+    <string name="errorLogin">Fehler beim Login!</string>
+    <string name="enter_a_password">Geben Sie ein Passwort ein</string>
+    <string name="password_a_short">Passwort zu kurz</string>
+    <string name="password_to_long">Passwort zu lang</string>
+    <string name="login_eror">Login kann nicht leer sein</string>
+    <string name="password_dont_match">Die Passwörter stimmen nicht überein</string>
+    <string name="Wrong_login_or_password">Falscher Login oder Passwort</string>
+
+
+    <!--TAB-->
+    <string name="accountInfo">Mein Profil</string>
+    <string name="yourPost">Meine Sachen</string>
+    <string name="addProduct">Füge etwas hinzu</string>
+    <string name="wishlist">Wunschliste</string>
+    <string name="wallet">Geldbörse</string>
+    <string name="pdp_status">STATUS</string>
+    <string name="notification">Benachrichtigung</string>
+
+    <!-- ProductDetail -->
+    <string name="d">d</string>
+    <string name="h">Std.</string>
+    <string name="w">w</string>
+    <string name="m">m</string>
+
+    <string name="hour">Stunde</string>
+    <string name="day">Tag</string>
+    <string name="week">Woche</string>
+    <string name="month">Monat</string>
+    <string name="rate">Bewertung</string>
+    <string name="info">Info</string>
+    <string name="review">Feedback</string>
+    <string name="product_info">Infos zum Gegenstand</string>
+    <string name="product_details_read_less">WENIGER LESEN</string>
+    <string name="fav_message">Favorit gespeichert Favoriten ansehen</string>
+    <string name="product_details_read_more">MEHR LESEN</string>
+    <string name="product_details_get_directions">Lage erfahren</string>
+    <string name="product_details_gallery_my_photo_title">User-Fotos</string>
+    <string name="product_details_error_displaying_pictures">Fehler beim Herunterladen einiger Bilder Bitte versuchen Sie es später erneut.</string>
+    <string name="product_details_gallery_page">%1$s von %2$s</string>
+    <string name="share_via">Teilen über</string>
+    <string name="booking">Reservieren</string>
+    <string name="status">Status</string>
+    <string name="deposit_currency">Einzahlung</string>
+    <string name="count">Gesamt:</string>
+    <string name="days">Tage</string>
+    <string name="maximum_rental_period">Maximale Mietdauer</string>
+    <string name="minimum_rental_period">Minimale Mietdauer</string>
+
+    <!--Booking-->
+    <string name="select_the_date_and_time">Mietdatum auswählen</string>
+    <string name="already_has_reservations">Dieser Gegenstand ist zu dieser Zeit schon reserviert</string>
+    <string name="hide_calendar">Kalender verbergen</string>
+    <string name="show_thing_info">Informationen über den Gegenstand anzeigen</string>
+    <string name="hide_thing_info">Informationen über den Gegenstand ausblenden</string>
+    <string name="deposit_for_thing">Einzahlung für einen Gegenstand</string>
+    <string name="minimal_rental_time">Minimale Mietdauer</string>
+    <string name="maximum_rental_time">Maximale Mietdauer</string>
+    <string name="eror_interval_min_rent">Die Mietdauer ist kürzer bei der minimalen Mietdauer</string>
+
+    <!-- reset password activity -->
+    <string name="account_reset_password">Passwort zurücksetzen</string>
+    <string name="account_reset_password_descr">Bitte geben Sie die E-Mail-Adresse an, die mit Ihrem Account verknüpft ist, und wir werden Ihnen einen Link zum Zurücksetzen des Passworts zukommen lassen.</string>
+    <string name="account_reset_password_button">Link senden</string>
+    <string name="account_reset_password_dialog">Passwort wird zurückgesetzt...</string>
+    <string name="account_reset_password_snackbar_success">Link gesendet</string>
+    <string name="account_reset_set_password_button">Neues Passwort setzen</string>
+
+    <!--My Product-->
+    <string name="dialog_delete_stuff">Möchten Sie diesen Gegenstand wirklich löschen?</string>
+    <string name="my_poduct">Meine Gegenstände</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <string name="wishlist_emty">Sie haben keine Favoriten</string>
+    <string name="wishlist_emty_message">Sie können Gegenstände aus unserem Katalog auswählen</string>
+    <string name="my_product_emty">Sie haben keine Gegenstände</string>
+    <string name="my_product_emty_message">klicken Sie auf das Plus, um den Gegenstand hinzuzufügen</string>
+
+
+    <!-- Account -->
+    <string name="about_me">Über mich</string>
+    <string name="additional_contacts">Zusätzliche Kontakte:</string>
+    <string name="phone">Telefon:</string>
+    <string name="your_emil">Ihre E-Mail:</string>
+    <string name="your_surname">Ihr Nachname:</string>
+    <string name="your_name">Ihr Name:</string>
+    <string name="about_your">Über Sie:</string>
+    <string name="seeMoreInfo">Weitere Infos ansehen</string>
+    <string name="security">Sicherheit</string>
+    <string name="show_contacts_on_thing_s_page">Kontakte auf der Seite des Gegenstands anzeigen</string>
+    <string name="show_full_address_in_search">Vollständige Adresse bei der Suche anzeigen</string>
+    <string name="verification">Überprüfung</string>
+    <string name="verification_of_documents">Dokumentenüberprüfung</string>
+    <string name="change">Ändern</string>
+    <string name="change_password">Passwort ändern</string>
+    <string name="change_password_api_eror">Fehler bei der Änderung des Passworts</string>
+    <string name="change_password_header">Bitte neues und altes Passwort angeben</string>
+    <string name="change_password_new">Neues Passwort</string>
+    <string name="password_error">Muss mindestens 6 Zeichen lang sein.\nVerwenden Sie eine Verbindung von Buchstaben und Zahlen.</string>
+    <string name="change_password_confirm">Neues Passwort bestätigen</string>
+    <string name="change_password_not_match_error">Stimmt nicht mit dem neuen Passwort überein</string>
+    <string name="updating_password_message">Passwort wird aktualisiert...</string>
+    <string name="password_updated_message">Passwort erfolgreich aktualisiert</string>
+    <string name="general_api_error">Es ist ein Fehler aufgetreten. Bitte überprüfen Sie die angegebenen Informationen und versuchen Sie es erneut.</string>
+    <string name="change_profile">Profil bearbeiten</string>
+
+    <!-- Document -->
+    <string name="add_document">Dokument hinzufügen:</string>
+    <string name="driver_license">FÜHRERSCHEIN</string>
+    <string name="passport">PASS</string>
+    <string name="student_ticket">STUDENTEN-TICKET</string>
+    <string name="international_passport">INTERNATIONALER PASS</string>
+    <string name="faq_document_verification">Fügen Sie ein Foto eines der Dokumente hinzu, dies wird für mehr Vertrauen von anderen Usern sorgen. Das Foto wird nur für den Moderator sichtbar sein</string>
+
+    <!-- Settings -->
+    <string name="action_settings">Einstellungen</string>
+    <string name="language">Sprache</string>
+    <string name="currency">Währung</string>
+    <string name="notify_new_message">Benachrichtigung bei neuen Nachrichten</string>
+    <string name="notify_booking">Buchungsbenachrichtigung</string>
+    <string name="notify_other">Andere Benachrichtigungen</string>
+
+
+    <!-- Verification -->
+    <string name="register_email_error">E-Mail ungültig</string>
+    <string name="reset_password_api_error">Fehler beim Zurücksetzen des Passworts Überprüfen Sie Ihre E-Mail</string>
+    <string name="account_send_sms_button">SMS senden</string>
+    <string name="verification_phone">Telefonnummerüberprüfung</string>
+    <string name="account_send_sms_code">Bitte geben Sie die Mobilfunknummer ein, die mit Ihrem Account verbunden ist, und wir werden Ihnen ein SMS mit dem Bestätigungscode für die Nummer zuschicken</string>
+    <string name="account_code">Um die Verifizierung erfolgreich abzuschließen, geben Sie den SMS-Code ein</string>
+    <string name="send_sms_api_error">Fehler beim Versand der SMS mit dem Code. Überprüfen Sie die Telefonnummer</string>
+    <string name="phone_error">Ungültige Telefonnummer</string>
+    <string name="sms_send_succes">SMS abgeschickt</string>
+    <string name="sending_sms">SMS wird versandt</string>
+    <string name="sending_code">Code wird gesendet</string>
+    <string name="code_send_succes">Die Nummer wurde erfolgreich überprüft!</string>
+    <string name="code_eror_api">Bestätigung fehlgeschlagen, bitte überprüfen Sie den Code</string>
+    <string name="account_send_code">Code senden</string>
+    <string name="code">Code</string>
+
+    <!-- ProductCondition-->
+    <string name="condition">Zustand:</string>
+    <string name="news">Neu</string>
+    <string name="used_like_new">Gebraucht, wie neu</string>
+    <string name="used_good">Gebraucht, gut</string>
+    <string name="used_acceptable">Gebraucht, akzeptabel</string>
+    <string name="used_with_defects">Gebraucht, mit Defekt</string>
+    <string name="manufacture_refurbished">Vom Hersteller runderneuert</string>
+    <string name="other_refurbished">Runderneuert</string>
+
+
+    <!-- AddProduct EditProduct -->
+
+    <string name="save_draft">Entwurf speichern</string>
+    <string name="save_publish">Speichern und veröffentlichen</string>
+    <string name="search_result_previous">Vorige</string>
+    <string name="search_result_next">Nächste</string>
+    <string name="add_product_name">Namen des Gegenstands hinzufügen</string>
+    <string name="price_per_hour">Preis pro Stunde:</string>
+    <string name="price_per_day">Preis pro Tag:</string>
+    <string name="price_per_week">Preis pro Woche:</string>
+    <string name="price_per_month">Preis pro Monat:</string>
+
+    <string name="per_hour">\u0020pro Stunde:</string>
+    <string name="per_day">\u0020pro Tag:</string>
+    <string name="per_week">\u0020pro Woche:</string>
+    <string name="per_month">\u0020Monatlich:</string>
+    <string name="some_detail">Beschreibung</string>
+    <string name="max_period_day">Maximale Zeit (Tag)</string>
+    <string name="min_period_hour">Minimale Dauer (Stunde)</string>
+    <string name="deposit">Einzahlung</string>
+    <string name="market_price">Marktpreis:</string>
+    <string name="eror_product_rate">Der Gegenstand sollte wenigstens eine Bewertung haben</string>
+    <string name="eror_long_desc">Die Beschreibung sollte mindestens 20 Zeichen lang sein.</string>
+    <string name="eror_market_price">Fügen Sie den geschätzten Marktwert des Gegenstands hinzu</string>
+    <string name="Eror_select_address">Keine Adresse des Gegenstands ausgewählt</string>
+    <string name="eror_image_product">Der Gegenstand muss mindestens ein Foto aufweisen!</string>
+    <string name="saved">Gespeichert!</string>
+
+
+    <!-- RESERVATON -->
+
+    <string name="emty_reservation">Sie mieten keine Gegenstände</string>
+    <string name="emty_request">Bei Ihnen wenn niemand Gegenstände mietet</string>
+    <string name="tab_iamrent">Ich miete</string>
+    <string name="tab_request">Anfrage</string>
+    <string name="new_">neu</string>
+    <string name="confirmed">bestät.</string>
+    <string name="rejected">abgel.</string>
+    <string name="canceled">storniert</string>
+    <string name="commented">komment</string>
+    <string name="conflict">konflikt</string>
+    <string name="give_feedback"> Feedback geben</string>
+    <string name="rating_count_vote">(0)</string>
+    <string name="pledge">Einzahlung</string>
+    <string name="amount">Betrag</string>
+    <string name="accept">Akzeptieren</string>
+    <string name="discard">Verwerfen</string>
+    <string name="taken">In Verwendung</string>
+    <string name="returned">Zurückgegeben</string>
+    <string name="sender">Sender</string>
+    <string name="from">Von</string>
+    <string name="to">Bis</string>
+    <string name="select_date_and_time">Wählen Sie Datum und Zeit aus</string>
+
+    <!-- FEEDBACK -->
+    <string name="product_quality">Qualität des Gegenstands</string>
+    <string name="description_quality">Qualität der Beschreibung</string>
+    <string name="price_quality_ratio">Preis-Leistungs-Verhältnis</string>
+    <string name="location_or_delivery_quality">Lage und Lieferqualität</string>
+    <string name="what_was_good">Was war gut?</string>
+    <string name="what_was_bad">Was war schlecht?</string>
+    <string name="owner_of_product">Besitzer des Gegenstands</string>
+    <string name="what_was_good_in_the_product_owner">Was war gut am Besitzer?</string>
+    <string name="feedback_failure">Fehler, es konnte kein Feedback gespeichert werden</string>
+    <string name="feedback_succes">Review erfolgreich abgeschickt!</string>
+
+    <!-- CHAT -->
+    <string name="write_to_message">In Nachricht verfassen</string>
+
+    <!-- Eror  and Progress   -->
+    <string name="eror_loading">Fehler beim Laden der Daten!</string>
+
+    <string name="are_you_sure">sind Sie sicher?</string>
+    <string name="delete">Löschen</string>
+    <string name="download_in_progress">Wird heruntergeladen...</string>
+    <string name="upload_in_progress">Wird hochgeladen...</string>
+    <string name="success">Erfolg!</string>
+    <string name="failure">Fehlgeschlagen!</string>
+    <string name="title_is_required">Der Titel des Gegenstands ist notwendig</string>
+    <string name="stuff">Gegenstände</string>
+    <string name="UAH">UAH</string>
+    <string name="currency_change_succes">Währung geändert!</string>
+    <string name="splash_text">Lassen Sie Ihre Sachen für Sie arbeiten</string>
+    <string name="condition_new">NEU</string>
+    <string name="condition_used_like_new">Gebraucht, wie neu</string>
+    <string name="condition_used_good">Gebraucht, gut</string>
+    <string name="condition_used_acceptable">Gebraucht, akzeptabel</string>
+    <string name="condition_used_with_defects">Gebraucht, mit Defekt</string>
+    <string name="condition_refurbished_manufactor">Vom Hersteller runderneuert</string>
+    <string name="condition_refurbished">Runderneuert</string>
+    <string name="category_electronics">Elektronik</string>
+    <string name="last_visited">Letztens besucht:</string>
+
+
+    <!--  notifications_______________-->
+    <string name="succes_booking_text">Sie können den Eigentümer direkt per Nachricht oder Telefon kontaktieren</string>
+    <string name="success_booking">Erfolg!</string>
+    <string name="amount_rent">Mietgebühr:</string>
+    <string name="eror_select_date">Enddatum nach dem Beginndatum</string>
+    <string name="reservation">Reservierung...</string>
+    <string name="thing_count_reserve">Anschauen, wann der Gegenstand verfügbar ist</string>
+    <string name="thing_not_reserve">Dieser Gegenstand ist jetzt nicht reserviert</string>
+    <string name="times">\u0020 Mal </string>
+    <string name="you_do_not_have_any_dialogs_yet">Sie haben noch keine Dialoge</string>
+    <string name="this_user_does_not_have_any_reviews_yet">Dieser User hat noch keine Reviews.</string>
+    <string name="search_suggestion_info_message">Versuchen Sie es mit einer anderen Stadt oder anderen Straßennamen</string>
+    <string name="register_confirm_password">Passwort bestätigen</string>
+
+    <!--  notifications-->
+    <string name="not_leave_feedback">Feedback hinterlassen</string>
+    <string name="not_new_booking">Neue Buchungsanfrage</string>
+    <string name="not_accepted">Die Buchung wurde akzeptiert</string>
+    <string name="not_expired_in">Die Buchung läuft in 1 Tag ab</string>
+    <string name="not_book_expired">Buchung abgelaufen</string>
+    <string name="not_was_canceled">Die Buchung wurde storniert</string>
+    <string name="not_client_marked">Der Kunde hat die Rückgabe des Gegenstandes vermerkt</string>
+    <string name="not_renter_return">Der Vermieter hat die Rückgabe des Gegenstands vermerkt</string>
+    <string name="not_marked">Der Vermieter hat den Mietbeginn vermerkt</string>
+    <string name="not_client_market_start">Der Kunde hat den Mietbeginn vermerkt</string>
+    <string name="server_eror">Serverfehler, bitte versuchen Sie es später erneut</string>
+    <string name="im_looking">Ich suche...</string>
+    <string name="select_location">Neue Adresse auswählen</string>
+    <string name="category">Kategorie</string>
+    <string name="search_by_category">Nach Kategorie suchen</string>
+    <string name="search_nearby">In der Nähe suchen</string>
+    <string name="search_by_title">Nach Titel suchen</string>
+    <string name="rating">Rating</string>
+
+
+    <!--  notifications_______________-->
+    <string name="search_result_product_address">%1$s\n%2$s</string>
+    <string name="settings_link">Einstellungen verknüpfen</string>
+    <string name="map">Karte</string>
+
+    <string name="no_connection">Keine Internetverbindung.</string>
+
+
+</resources>
