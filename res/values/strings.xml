@@ -1,32 +1,32 @@
 <resources>
     <string name="app_name">Rent4me</string>
     <string name="facebook_app_id">976836812414977</string>
+    <string name="fb_login_protocol_scheme">fb976836812414977</string>
 
     <string name="address_hidden">(Address is not public)</string>
+
+    <string name="default_notification_channel_id" translatable="false">messageChannel</string>
 
     <!-- Fonts -->
     <string name="font_graphik_regular" translatable="false">fonts/Graphik_Regular.otf</string>
     <string name="font_graphik_medium" translatable="false">fonts/Graphik_Medium.otf</string>
     <string name="font_graphik_semibold" translatable="false">fonts/Graphik_Semibold.otf</string>
     <string name="font_avenir_regular" translatable="false">fonts/AvenirLTStd-Book.otf</string>
-    <string name="font_avenir_medium" translatable="false">fonts/AvenirLTStd-Medium.otf</string>
     <string name="font_avenir_bold" translatable="false">fonts/AvenirLTStd-Black.otf</string>
 
     <!-- Suggestion Activity -->
-    <string name="search_bar_menu_search">Search</string>
     <string name="search_hint">I need … </string>
     <string name="search_suggestion_title">Try this…</string>
     <string name="search_suggestion_no_result_title">Sorry, no results.</string>
 
     <!-- Search Result Fragment -->
-    <string name="search_result_list_view">List</string>
-    <string name="search_result_map_view">Map</string>
-    <string name="search_result_swipe_view">Cards</string>
     <string name="search_result_save_search">SAVE SEARCH</string>
     <string name="search_result_sort">SORT</string>
     <string name="km">km</string>
     <string name="search_result_updating_map">Updating Map</string>
     <string name="search_error">An error occurred performing the search.</string>
+
+    <string name="search_location">Search Location</string>
 
     <string name="search_result_no_result_title">Sorry, we can\'t find any things that match your search.</string>
     <string name="search_result_no_result_message">Try changing the name of the thing or change the location</string>
@@ -46,8 +46,6 @@
     <string name="search_permission_gps_rationale">Grant access to the GPS for easy search.</string>
     <string name="search_bar_no_location_error">Sorry we had trouble retrieving your location, please try again later.</string>
 
-    <string name="search_result_zoom_exceeded_title">Zoomed out too far</string>
-    <string name="search_result_zoom_exceeded_message">You\'ve zoomed out too far. Please zoom in a little closer to see homes.</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="search_result_pruduct_loading">Search…</string>
@@ -55,7 +53,6 @@
     <string name="search_suggestion_retrieving_location">_suggestion_retrieving_location</string>
 
 
-    <string name="search_most_recent_search">Last queries</string>
     <string name="most_recent_searches">{0}%1$s{/0} {0}%2$s{/0} ~ {0}%3$s{/0} ℃</string>
     <string name="no_product_error_message">No things!</string>
     <string name="product_details_error_displaying_picture">Error downloading image. Please try again later.</string>
@@ -76,43 +73,67 @@
 
     <string name="wellcome_offer_back">BACK</string>
     <string name="wellcome_offer_next">NEXT</string>
-    <string name="wellcome_offer_done">DONE</string>
     <string name="wellcome_skip">Skip</string>
 
     <!--Register   and Login -->
     <string name="register_email">Email</string>
     <string name="register_password">Password</string>
-    <string name="login_forgot_password">Forgot password?</string>
+    <string name="login_forgot_password">I forgot my password</string>
 
     <string name="register_succes">Registration saved! Please check your email for confirmation</string>
 
-    <string name="orLoginWith">or  login  with</string>
     <string name="login_eror_api">Could not log in</string>
+    <string name="validate_account_error_api">Could not validate account</string>
     <string name="login">Login</string>
-    <string name="intro_sign_in">SIGN IN</string>
-    <string name="intro_register">REGISTER</string>
+    <string name="intro_sign_in">Sign in</string>
+    <string name="intro_sign_up">Sign up</string>
+    <string name="intro_sign_in_up">Sign in or sign up</string>
     <string name="logout">Logout</string>
     <string name="emailIsNotValid">Email is not valid!</string>
     <string name="emailCannotBeNull">Email cannot be empty</string>
-    <string name="errorLogin">Error in Login!</string>
     <string name="enter_a_password">Enter a Password</string>
     <string name="password_a_short">Password is too short</string>
     <string name="password_to_long">Password is too long</string>
     <string name="login_eror">Login can not be empty</string>
-    <string name="password_dont_match">Passwords dont match</string>
-    <string name="Wrong_login_or_password">Wrong login or password</string>
+    <string name="password_dont_match">Passwords don\'t match</string>
+    <string name="bad_credentials">Failed to sign in! Please check your credentials and try again.</string>
     <string name="email_exists">Email already exists</string>
     <string name="login_exists">Login already exists</string>
+    <string name="continue_as_guest">Continue as a guest</string>
+    <string name="register_credentials">Credentials</string>
+    <string name="register_next">next</string>
+    <string name="register_done">done</string>
+    <string name="register_social_suggestions">You can fast-track the sign up process, using your account in social networks:</string>
+    <string name="skip_sign_up">Skip signing up and continue as a guest</string>
+    <string name="register_personal_data">Personal data</string>
+    <string name="register_phone_verification">Phone number verification</string>
+    <string name="register_document_validation">Document validation</string>
+    <string name="register_welcome_on_board">Welcome on board!</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <string name="company_name">Company\'s name</string>
+    <string name="register_is_company">I sign up a company</string>
+    <string name="register_verify">Verify</string>
+    <string name="register_verify_seconds">Verify (%d)</string>
+    <string name="register_phone_number">Phone number</string>
+    <string name="register_code">Code from SMS</string>
+    <string name="register_code_empty_error">Code can\'t be empty</string>
+    <string name="register_phone_success_verified">Your phone number is \nsuccessfully verified!</string>
+    <string name="register_doc_suggestion">To finish your identification we need a photo of driver license. If you don\'t have one, you may use your ID card or passport, but in this case you won\'t be able to rent a car.</string>
+    <string name="register_title_pick_photo">"Photos of the document"</string>
+    <string name="register_doc_finish_title">"One little thing&#8230;"</string>
+    <string name="register_doc_email_verify">Please check the email from Rent4me and press link in it to verify your address, so we would be sure you receive rent confirmations and booking requests in time.</string>
+    <string name="register_doc_able_functions">"But even now you may use the app with almost all functions!"</string>
 
 
     <!--TAB-->
-    <string name="accountInfo">My Profile</string>
+    <string name="accountInfo">Profile</string>
     <string name="yourPost">My Stuff</string>
-    <string name="addProduct">Add a new thing</string>
-    <string name="wishlist">Wish List</string>
+    <string name="wishlist">Favourites</string>
     <string name="wallet">Wallet</string>
     <string name="pdp_status">STATUS</string>
     <string name="notification">Notification</string>
+    <string name="addresses">Addresses</string>
 
     <!-- ProductDetail -->
     <string name="d">d</string>
@@ -124,12 +145,10 @@
     <string name="day">day</string>
     <string name="week">week</string>
     <string name="month">month</string>
-    <string name="rate">Rating</string>
     <string name="info">Info</string>
     <string name="review">Feedback</string>
     <string name="product_info">Thing info</string>
     <string name="product_details_read_less">READ LESS</string>
-    <string name="fav_message">Favorite saved! View favorites</string>
     <string name="product_details_read_more">READ MORE</string>
     <string name="product_details_get_directions">Get  Directions</string>
     <string name="product_details_gallery_my_photo_title">User Photos</string>
@@ -137,31 +156,26 @@
     <string name="product_details_gallery_page">%1$s of %2$s</string>
     <string name="share_via">Share via</string>
     <string name="booking">Reserve</string>
-    <string name="status">Status</string>
     <string name="deposit_currency">Deposit(</string>
-    <string name="count">Count:</string>
-    <string name="days">days</string>
     <string name="maximum_rental_period">Maximum rental period</string>
-    <string name="minimum_rental_period">Minimum rental period</string>
+    <string name="error_product_without_image">Thing should have at least one image</string>
 
     <!--Booking-->
-    <string name="select_the_date_and_time">Select rental date</string>
     <string name="already_has_reservations">This thing is already reserved on such dates</string>
     <string name="hide_calendar">Hide calendar</string>
     <string name="show_thing_info">Show thing information</string>
     <string name="hide_thing_info">Hide thing information</string>
     <string name="deposit_for_thing">Deposit for a thing</string>
     <string name="minimal_rental_time">Minimal rental time</string>
-    <string name="maximum_rental_time">Maximum rental time</string>
     <string name="eror_interval_min_rent">Rent time is less for the minimum rental period</string>
+    <string name="error_interval_max_rent">Rent time is longer than the maximum rental period</string>
+    <string name="personal_data_error">Oops! First fill out your personal data.</string>
 
     <!-- reset password activity -->
-    <string name="account_reset_password">Reset Password</string>
     <string name="account_reset_password_descr">Please enter the email address associated with your account and we\'ll send you a link so you can reset your password.</string>
     <string name="account_reset_password_button">Send a Link</string>
     <string name="account_reset_password_dialog">Resetting Password…</string>
     <string name="account_reset_password_snackbar_success">Reset link was sent</string>
-    <string name="account_reset_set_password_button">Set a new Password</string>
 
     <!--My Product-->
     <string name="dialog_delete_stuff">Do you really want to delete this thing?</string>
@@ -169,8 +183,7 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
 
-    <string name="wishlist_emty">You have no favorites</string>
-    <string name="wishlist_emty_message">you can choose things from our catalog</string>
+    <string name="wishlist_emty">You have nothing in your wish list yet</string>
     <string name="my_product_emty">You have no things</string>
     <string name="my_product_emty_message">click on the plus to add them</string>
 
@@ -179,28 +192,34 @@
     <string name="about_me">My information:</string>
     <string name="additional_contacts">Additional contacts:</string>
     <string name="phone">Phone:</string>
-    <string name="your_emil">Your email:</string>
-    <string name="your_surname">Your surname:</string>
-    <string name="your_name">Your name:</string>
-    <string name="about_your">About you:</string>
+    <string name="your_phone">Phone*</string>
+    <string name="email">E-mail*</string>
+    <string name="last_name">Last name*</string>
+    <string name="site_url">Site URL</string>
+    <string name="first_name">First name*</string>
+    <string name="about_me_field">About me:</string>
     <string name="seeMoreInfo">See more info</string>
     <string name="security">Security</string>
     <string name="show_contacts_on_thing_s_page">Show contacts on thing\'s page</string>
     <string name="show_full_address_in_search">Show full address in search</string>
-    <string name="verification">Verification</string>
-    <string name="verification_of_documents">Documents verifivations</string>
+    <string name="account_verification">Account verification</string>
+    <string name="verification_of_documents">Documents verification</string>
     <string name="change">Change</string>
     <string name="change_password">Change password</string>
-    <string name="change_password_api_eror">Failed to change password</string>
     <string name="change_password_header">Enter your new password and old password</string>
     <string name="change_password_new">New Password</string>
     <string name="password_error">Must be at least 6 characters long.\nUse a combination of letters &amp; numbers.</string>
-    <string name="change_password_confirm">Confirm New Password</string>
+    <string name="change_password_confirm">Confirm Your Password</string>
     <string name="change_password_not_match_error">Does not match new password</string>
     <string name="updating_password_message">Updating password…</string>
     <string name="password_updated_message">Password updated successfully</string>
-    <string name="general_api_error">An error occurred. Please check the information supplied and try again.</string>
-    <string name="change_profile">Edit Profile</string>
+    <string name="name_empty_error">Your first name is required to be at least 1 character</string>
+    <string name="surname_empty_error">Your last name is required to be at least 1 character</string>
+    <string name="phone_empty_error">Your phone number is required</string>
+    <string name="invalid_fields">Changes won\'t be saved, the required fields are invalid.</string>
+    <string name="site_url_error">Invalid site URL.</string>
+    <string name="addresses_empty">Please add at least one address where your stuff is. It may be your home or garage.</string>
+    <string name="addresses_empty_clarify">Renter will see it only after booking acceptance.</string>
 
     <!-- Document -->
     <string name="add_document">Add document</string>
@@ -237,13 +256,12 @@
     <string name="code">Code</string>
 
     <!-- ProductCondition-->
-    <string name="condition">Condition:</string>
     <string name="news">New</string>
     <string name="used_like_new">Used, Like New</string>
     <string name="used_good">Used, Good</string>
     <string name="used_acceptable">Used, Acceptable</string>
     <string name="used_with_defects">Used, Have defects</string>
-    <string name="manufacture_refurbished">Refurbished by Manufactor</string>
+    <string name="manufacture_refurbished">Refurbished by Manufacturer</string>
     <string name="other_refurbished">Refurbished</string>
 
 
@@ -266,14 +284,17 @@
     <string name="some_detail">Description</string>
     <string name="max_period_day">Max Period(day)</string>
     <string name="min_period_hour">Min Period(hour)</string>
-    <string name="deposit">Deposit</string>
     <string name="market_price">Market price</string>
+    <string name="error_product_title">Title should be at least 3 characters long</string>
     <string name="eror_product_rate">Thing should have at least one rate</string>
+    <string name="error_free_thing">Free things should have maximum period of rent</string>
     <string name="eror_long_desc">Description should be at least 20 characters long.</string>
     <string name="eror_market_price">Add the approximate market value of the thing</string>
     <string name="Eror_select_address">No address for thing was selected</string>
     <string name="eror_image_product">The thing must have at least one photo!</string>
     <string name="saved">Saved!</string>
+
+    <string name="address_in_use_error">Address is already in use</string>
 
 
     <!-- RESERVATON -->
@@ -296,10 +317,14 @@
     <string name="discard">Discard</string>
     <string name="taken">Taken</string>
     <string name="returned">Returned</string>
+    <string name="confirm_returned">Confirm returned</string>
     <string name="sender">Sender</string>
     <string name="from">From</string>
     <string name="to">To</string>
     <string name="select_date_and_time">Select date and time</string>
+    <string name="take">Take</string>
+    <string name="waiting_for_taking">Waiting for taking</string>
+    <string name="return_">Return</string>
 
     <!-- FEEDBACK -->
     <string name="product_quality">Quality of thing</string>
@@ -309,9 +334,8 @@
     <string name="what_was_good">What was good?</string>
     <string name="what_was_bad">What was bad?</string>
     <string name="owner_of_product">Owner of thing</string>
-    <string name="what_was_good_in_the_product_owner">What was good in the thing owner?</string>
-    <string name="feedback_failure">Error, could not save feedback</string>
-    <string name="feedback_succes">Review successfully send!</string>
+    <string name="good_owner">What was good about owner?</string>
+    <string name="bad_about_owner">What was bad about the product owner?</string>
 
     <!-- CHAT -->
     <string name="write_to_message">Write a message</string>
@@ -327,29 +351,29 @@
     <string name="failure">Failure!</string>
     <string name="title_is_required">Thing title is required</string>
     <string name="stuff">Things</string>
-    <string name="UAH">UAH</string>
     <string name="currency_change_succes">Currency changed!</string>
-    <string name="splash_text">Let your stuff work for you</string>
+    <string name="splash_text">Let your stuff \nwork for you</string>
+    <string name="welcome_text_1">Welcome to the wonderful world of sharing things!</string>
+    <string name="welcome_text_2">With Rent4me you can easily find any stuff for rent around you or all over the world</string>
     <string name="condition_new">NEW</string>
     <string name="condition_used_like_new">Used, Like New</string>
     <string name="condition_used_good">Used, Good</string>
     <string name="condition_used_acceptable">Used, Acceptable</string>
     <string name="condition_used_with_defects">Used, Have defects</string>
-    <string name="condition_refurbished_manufactor">Refurbished by Manufactor</string>
+    <string name="condition_refurbished_manufactor">Refurbished by Manufacturer</string>
     <string name="condition_refurbished">Refurbished</string>
     <string name="category_electronics">Electronics</string>
     <string name="last_visited">Last visited:</string>
 
 
     <!--  notifications_______________-->
-    <string name="succes_booking_text">You may write a message or call to owner directly</string>
+    <string name="success_booking_text">Now you are to wait for owner to accept your request. After that you will get the contacts of owner and may take the thing.</string>
     <string name="success_booking">Success!</string>
     <string name="amount_rent">Rent fee:</string>
     <string name="eror_select_date">End date later than start date</string>
     <string name="reservation">Reservation…</string>
     <string name="thing_count_reserve">See what dates the thing is free</string>
     <string name="thing_not_reserve">This thing is not reserved now</string>
-    <string name="times">\u0020 times</string>
     <string name="you_do_not_have_any_dialogs_yet">You do not have \n any dialogs yet</string>
     <string name="this_user_does_not_have_any_reviews_yet">This user does not have any reviews yet.</string>
     <string name="search_suggestion_info_message">Try different city or street names</string>
@@ -358,6 +382,7 @@
     <!--  notifications-->
     <string name="not_leave_feedback">Leave feedback</string>
     <string name="not_new_booking">New booking request</string>
+    <string name="not_new_booking_expanded">New booking request for item <b>%1$s</b></string>
     <string name="not_accepted">Booking was accepted</string>
     <string name="not_expired_in">Booking will be expired in a 1 day</string>
     <string name="not_book_expired">Booking expired</string>
@@ -367,7 +392,6 @@
     <string name="not_marked">Renter marked start of the rent</string>
     <string name="not_client_market_start">Client marked start of the rent</string>
     <string name="server_eror">Server error, try again later</string>
-    <string name="im_looking">I\'m looking…</string>
     <string name="select_location">Select new address</string>
     <string name="category">Category</string>
     <string name="search_by_category">Search by category</string>
@@ -381,7 +405,16 @@
     <string name="settings_link">Settings link</string>
     <string name="map">Map</string>
 
+    <string name="message_channel_name">Message channel</string>
+    <string name="booking_channel_name">Booking channel</string>
+    <string name="message_channel_description">Message description</string>
+    <string name="booking_channel_description">Booking description</string>
+
     <string name="no_connection">No internet connection.</string>
+    <string name="rent4me_logo">Rent4Me Logo</string>
+    <string name="free_now">free</string>
+    <string name="_0">0</string>
+    <string name="plusone">+1</string>
 
 
 </resources>
